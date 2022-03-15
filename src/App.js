@@ -1,9 +1,9 @@
 import React from 'react';
-
+import Chrono from './Chrono/Chrono';
 const App = () => {
   return (
-    <div>
-      <h1>okok</h1>
+    <div className='app'>
+      <Chrono/>
     </div>
   );
 };
